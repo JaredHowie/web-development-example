@@ -1,0 +1,94 @@
+/* 
+Name: Mitchell Burt
+Date: September 27th 2018
+Filename: web3201.css
+Purpose: Make the website lookin f r e s h boyyy
+*/
+
+body {
+	background-color: #adcbe3;
+	font-family: comic sans;
+	
+}
+
+a:link{
+	color: #63ace5;
+}
+
+a:visited{
+	color: #2a4d69;
+}
+
+a:hover{
+	color: #e7eff6;
+}
+
+a:active{
+	color: #f49942;
+}
+
+td{
+	 font-weight: bold; 
+}
+
+table{
+	border: 0px solid black;
+}
+
+p{
+	margin-top: 24px;
+}
+
+caption{
+	font-family: ariel;
+}
+
+li{
+	opacity: 0.5;
+}
+
+head{
+	display: inline;
+}
+
+
+span{
+	font-family: Tahoma;
+	font-size: 24pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+cite{
+	font-size: 10pt;
+	font-style: italic;
+	font-family: Arial;
+}
+#navigationbar{
+	add-position: absolute;
+    text-align: right;
+	vertical-align: top;
+}
+#navbar{
+	add-position: absolute;
+    text-align: right;
+	vertical-align: top;
+}
+#navigation
+{
+	clear: left;
+	float: left;
+	width: 240px;
+	padding: 10px 0;
+	margin: 0 20px 0 0;
+	display: inline;
+}
+#content-container
+{
+	float: left;
+	width: 1200px;
+}
+#search
+{
+	border: 0px solid black;
+}

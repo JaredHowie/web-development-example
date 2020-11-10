@@ -1,0 +1,231 @@
+/* 
+Name: Mitchell Burt
+Date: September 27th 2018
+Filename: web3201.css
+Purpose: Alter the apperance of the website
+*/
+#banner{
+	
+	background-position: center;
+	padding: 10px;
+	background-color: #FFFFFF;
+	background-image: url('images/thanosmall.png');
+	height: 130px;
+	background-repeat: no-repeat;
+}
+body {
+	font-family:Arial;
+	margin: 0;
+	padding: 0;
+	background-color: #660066; 
+	color: #000000;
+}
+
+#container {
+	background-color: #ffffff;
+	margin: 10px auto;
+	padding: 20px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	width: 80%;
+	max-width: 1200px;
+}
+/*Bullet Points*/
+#content ul li {
+	list-style-image: url('images/stone.png');
+	margin: 2px;
+	padding: 2px;
+}
+#content li li {
+	list-style-image: url('images/stone.png');
+	padding: 2px 0;
+}
+
+/* Links */
+a:link {
+	color: #660066;
+	background: transparent;
+	font-weight: 200;
+	text-decoration: underline;
+}
+a:visited {
+	background: transparent;
+	color: #000000;
+	font-weight: 200;
+	text-decoration: underline;
+}
+a:hover {
+	background: #efbbff	;
+	color: #000000;
+	font-weight: 200;
+}
+a:active {
+	color: #000000;
+	font-weight: 200;
+	text-decoration : underline;
+}
+
+/*
+Heading Tags 
+*/
+h1, h2, h3, h4 {
+	color: #800080;
+	font-family: Ariel;
+}
+h1 {
+	font-size: 25px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 15px;
+}
+h4 {
+	font-size: 15px;
+}
+hr {
+	background-color: #004145;
+	width: 80%;
+	height: 5px;
+	text-align: center;
+}
+
+
+.center {
+	text-align: center;
+}
+.no-margin {
+	margin: 0px;
+}
+
+/*Right Column*/
+#rightcol {
+	background-color: #ffffff;
+	color: #00000;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid #800080;
+	float: right;
+	width: 200px;
+	border-radius: 8px;
+}
+#rightcol ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0; 
+}
+#rightcol ul li {
+	padding-bottom: 3px; 
+}
+#rightcol ul li a {
+	font: normal 10px Arial;
+	color: #000000;
+	display: block;
+	padding: 5px;
+	line-height: 17px;
+	padding-left: 30px;
+	background: url('images/gaunt.png') no-repeat 8px 6px;
+}
+}
+#rightcol ul li a:visited {
+	color: #000000;
+}
+#rightcol ul li a:hover {
+	color: #000000;
+	background: #d896ff url('images/gauntyell.png') no-repeat 8px 6px;
+}
+
+/*Left Column*/
+#leftcol {
+	color: #00000;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
+	border: 2px solid #800080;
+	float: left;
+	background-color: #ffffff;
+	width: 200px;
+	border-radius: 8px;
+	box-shadow: #A3CEA3;
+}
+#leftcol ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 4px;
+}
+#leftcol li {
+	list-style: none;
+	padding: 2px 0;
+}
+#leftcol ul li {
+	text-decoration: none;
+	margin-top: 2px;
+}
+#leftcol ul ul li {
+	padding: 3px 0 3px 5px;
+	font-size: 80%;
+	font-weight: normal;
+}
+#leftcol p {
+	font-size: .85em;
+}
+
+
+.heading {
+	font-family: Arial;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+	padding: 7px 7px 15px;
+	font-size: 15px;
+}
+
+/*header*/
+#headbar,
+#headbar ul,
+#headbar li #headbar a {
+  list-style: none;
+  margin: 0;
+  font-size: 15px;
+  font-family: Arial;
+}
+#headbar ul {
+	background: #660066 url("images/texture.png") repeat left top;
+	border-radius: 4px;
+	border: 1px solid #666666;
+}
+#headbar ul:before {
+  content: '';
+  display: block;
+}
+#headbar ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#headbar a,
+#headbar a:link,
+#headbar a:visited {
+  padding: 20px 25px;
+  display: block;
+  color: #ffffff;
+  text-shadow:  1px #060706;
+  border-right: 1px solid #666666;
+}
+#headbar a:hover {
+  color: #060706;
+  text-shadow: 1px #5e7b5e;
+}
+#headbar li {
+  float: left;
+  border-right: 1px solid #666969;
+}
+#headbar li:hover {
+  background: #3d503d url("images/texture.png") top left repeat;
+}
+
+
+
+
